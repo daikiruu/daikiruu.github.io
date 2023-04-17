@@ -3,8 +3,8 @@
     <title>favicon</title>
     <defs>
         <circle id="path-1" cx="8" cy="8" r="8"></circle>
-        <polygon id="path-3" points="8 3 16 16 0 16"></polygon>
-        <filter x="-43.8%" y="-38.5%" width="187.5%" height="207.7%" filterUnits="objectBoundingBox" id="filter-4">
+        <polygon id="path-3" points="8 3.52436809 8.13829946 3.22473662 16 16 0 16 7.86289325 3.22279847"></polygon>
+        <filter x="-43.8%" y="-39.1%" width="187.5%" height="209.6%" filterUnits="objectBoundingBox" id="filter-4">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
@@ -15,15 +15,16 @@
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
+        <circle id="path-7" cx="8" cy="8" r="8"></circle>
     </defs>
     <g id="favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Triangle-+-Triangle-+-Triangle-Mask">
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <use id="Mask" fill-opacity="0.358336976" fill="#F8003A" xlink:href="#path-1"></use>
-            <circle id="Oval" fill-opacity="0.73560424" fill="#FF4343" mask="url(#mask-2)" cx="4" cy="9" r="2"></circle>
-            <polygon id="Triangle" fill="#2D2E38" mask="url(#mask-2)" points="1.5 7 7 16 -4 16"></polygon>
+            <use id="Mask" fill="#FFB2E4" xlink:href="#path-1"></use>
+            <circle id="Oval" fill-opacity="0.73560424" fill="#FF4343" mask="url(#mask-2)" cx="5" cy="8" r="2"></circle>
+            <polygon id="Triangle" fill="#2D2E38" mask="url(#mask-2)" points="2.5 6 8 15 -3 15"></polygon>
             <g id="Triangle" mask="url(#mask-2)">
                 <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
                 <use fill="#343542" fill-rule="evenodd" xlink:href="#path-3"></use>
@@ -32,9 +33,13 @@
                 <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
                 <use fill="#272831" fill-rule="evenodd" xlink:href="#path-5"></use>
             </g>
+            <mask id="mask-8" fill="white">
+                <use xlink:href="#path-7"></use>
+            </mask>
+            <circle stroke="#FFFFFF" stroke-width="0.4" cx="8" cy="8" r="7.8"></circle>
         </g>
-        <polygon id="Triangle" fill="#E5E5E5" points="8 3 10.4672474 7 7.60492379 7.77804968 5.48008483 7.05752081"></polygon>
-        <polygon id="Triangle" fill="#FFFFFF" points="1.5 7 2.74122509 9 1.75421287 9.34936002 -0.0437546825 9.5"></polygon>
+        <polygon id="Triangle" fill="#E5E5E5" points="8 3.36590032 8.09496516 3.24498173 8.12641078 3.2049422 10.4672474 7 7.60492379 7.77804968 5.48008483 7.05752081 7.91580765 3.13556497"></polygon>
+        <polygon id="Triangle" fill="#FFFFFF" points="2.5 6 3.74122509 8 2.75421287 8.34936002 1.21871426 8"></polygon>
         <polygon id="Triangle" fill="#E1E1E1" points="13 5 14.1459106 7.06270365 13.2062481 7.2069297 11.9068265 7"></polygon>
     </g>
 </svg>
