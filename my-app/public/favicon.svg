@@ -36,7 +36,7 @@
             <mask id="mask-8" fill="white">
                 <use xlink:href="#path-7"></use>
             </mask>
-            <circle stroke="#FFFFFF" stroke-width="0.4" cx="8" cy="8" r="7.8"></circle>
+            <circle stroke="#FFFFFF" stroke-width="0.5" cx="8" cy="8" r="7.75"></circle>
         </g>
         <polygon id="Triangle" fill="#E5E5E5" points="8 3.36590032 8.09496516 3.24498173 8.12641078 3.2049422 10.4672474 7 7.60492379 7.77804968 5.48008483 7.05752081 7.91580765 3.13556497"></polygon>
         <polygon id="Triangle" fill="#FFFFFF" points="2.5 6 3.74122509 8 2.75421287 8.34936002 1.21871426 8"></polygon>
